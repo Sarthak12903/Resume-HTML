@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Contact</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            
+            
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 400px 400px;
+            grid-template-rows: 80px 60px 60px;
+            gap:5px;
+        }
+        .heading{
+            grid-column: span 2;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        .address{
+            grid-column: span 2;
+        }
+        h4{
+            text-align: center;
+        }
+        span{
+            font-weight: lighter;
+        }
+        .Item{
+            background-color: bisque;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="Item heading"><h1>My contact</h1></div>
+        <div class="Item address"><h4>Address:<span>Sai nandanvan Society, Wadgaon Sheri, Pune-14.</span></h4></div>
+        <div class="Item phone"><h4>phone-No:<span>7972188032</span></h4></div>
+        <div class="Item email"><h4>Email-ID:<span>sarthak12903@gmail.com</span></h4></div>
+    </div>
+    <div>
+        <hr>
+        <footer>
+            <small>
+                Sarthak Bhalerao ©. All Rights reserved.
+            </small>
+        </footer>
+        
+    </div>
+   
+    
+</body>
+</html>
